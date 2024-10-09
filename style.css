@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1db954;
+    padding: 20px 0;
+  }
+  
+  .navbar .logo img {
+    height: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background: url('spotify-hero-bg.jpg') no-repeat center center/cover;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    background-color: #1db954;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .hero .btn:hover {
+    background-color: #1aa34a;
+  }
+  
+  /* Featured Section */
+  .featured {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .featured h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .feature-box {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .feature-box img {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature-box p {
+    font-size: 1rem;
+    color: #b3b3b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #1db954;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-links li {
+    margin-left: 15px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
